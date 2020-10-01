@@ -1,0 +1,7 @@
+type Note @model {
+  id: ID!
+  clientId: ID
+  name: String!
+  description: String
+  completed: Boolean
+}
